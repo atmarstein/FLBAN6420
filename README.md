@@ -49,6 +49,10 @@ After submitting the survey data, you can generate the plots by clicking the Gen
 The application will create visualizations based on the survey data:
 Age vs Income Plot: A scatter plot visualizing the relationship between age and income.
 Gender Spending Distribution: A bar chart showing spending distribution by gender.
-The Age vs Income Plot will be downloaded automatically upon generation. To download the Gender Spending Distribution plot, click the Download Gender Spending Plot button on the main page.
-Conclusion
+The Age vs Income Plot will be downloaded automatically upon generation.
+To download the Gender Spending Distribution plot, click the Download Gender Spending Plot button on the main page.
+
+
+## Conclusion
+
 This application provides a simple way to collect survey data, analyze it visually, and export the results for further use. 
