@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Survey Form</title>
+</head>
+
+<body>
+    <h2>Survey Form</h2>
+    <form method="POST">
+        Age: <input type="number" name="age" required><br>
+        Gender:
+        <select name="gender">
+            <option value="Male">Male</option>
+            <option value="Female">Female</option>
+        </select><br>
+        Total Income: <input type="number" name="income" required><br>
+
+        <h3>Expenses:</h3>
+        <label><input type="checkbox" name="utilities"> Utilities</label> <input type="number" name="utilities"><br>
+        <label><input type="checkbox" name="entertainment"> Entertainment</label> <input type="number"
+            name="entertainment"><br>
+        <label><input type="checkbox" name="school_fees"> School Fees</label> <input type="number"
+            name="school_fees"><br>
+        <label><input type="checkbox" name="shopping"> Shopping</label> <input type="number" name="shopping"><br>
+        <label><input type="checkbox" name="healthcare"> Healthcare</label> <input type="number" name="healthcare"><br>
+
+        <button type="submit">Submit</button>        
+    </form>
+    <br>
+    <button onclick="window.location.href='/export'">Export to CSV</button>
+    <br>
+    <button onclick="window.location.href='/generate_plots'">Generate Plots</button>
+</body>
+
+</html>
